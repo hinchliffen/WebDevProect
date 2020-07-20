@@ -30,6 +30,37 @@ body {
 	background-image: url(background.png);
 	background-repeat: repeat-x;
 }
+#con{
+	padding: 10px;
+}
+#labelN{
+	display: block;
+}
+#labelS{
+	display: block;
+}
+#labelM{
+	display: block;
+}
+#nameInput{
+	vertical-align: top;
+}
+#subject{
+	vertical-align: top;
+}
+#message{
+	
+	width: 450px;
+	height: 250px;
+}
+#sub{
+	background-color: cornflowerblue;
+	border-radius: 12px;
+	font-size: 20px;
+	color: cornsilk;
+	padding: 10px 24px;
+}
+
 #a1{
 	margin: 30px;
 	text-align: center;
