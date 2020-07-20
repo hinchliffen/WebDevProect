@@ -25,23 +25,33 @@
 
 </head>
 
-<body id="main">
-	<article id="a1">
-		<h1>Contact.</h1>
-		All info about it goes here
-	</article>
-	
-	<p class="signup">
-		<label>Sign up today!</label>
-	</p>
+<body id="con">
+	<form id="contactForm" action="#">
+	 <fieldset>
+			<h1>Get in Touch</h1>
+			<label id="labelN">Name</label>
+			<input type="text" name="name" id="nameInput">
+			<br/><br/>
+
+			<label id="labelS"> Subject</label>
+			<input type="text" name="subject" id="subject">
+			<br/><br/>
+
+			<label id="labelM">Message</label>
+				<textarea type="text" name="message" 			id="message"></textarea>
+			<br/><br/>
+			<box id="sub">Submit</box>
+			<br/><br/>
+	 </fieldset>
+	</form>
 </body>
 
-<footer>
+<div class="footer">
 	<div id ="social">Follow us</div>
 	<nav class = "social">
 		<img src="facebook.png">
 		<img src="twitter.jpg">
 		<img src="instagram.jpg">
 	</nav>
-</footer>
+</div>
 </html>
