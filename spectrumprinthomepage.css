@@ -33,6 +33,20 @@ body {
 #con{
 	padding: 10px;
 }
+#contactForm{
+	box-sizing: border-box;
+	border: solid;
+	width: 480px;
+	margin: 10px;
+	margin-left: 500px;
+	position: sticky;
+	padding: 10px;
+	background-color: rgb(173, 215, 230);
+}
+#git{
+	text-align: center;
+}
+
 #labelN{
 	display: block;
 }
@@ -71,7 +85,7 @@ body {
 }
 
 .footer{
-	position: fixed;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	width: 100%;
