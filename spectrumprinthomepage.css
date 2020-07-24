@@ -84,10 +84,14 @@ body {
 	text-align: center;
 }
 
-.footer{
-	position: relative;
+.footer {
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: rgb(55, 58, 58);	
+	background-color: lightslategray;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:whitesmoke;
 }
