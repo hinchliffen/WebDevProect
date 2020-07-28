@@ -83,49 +83,32 @@ li a:hover {
 	vertical-align: top;
 }
 
-#message {
-	width: 450px;
-	height: 250px;
-}
-
-#sub {
+/*#sub {
 	background-color: cornflowerblue;
 	border-radius: 12px;
 	font-size: 20px;
 	color: cornsilk;
 	padding: 10px 24px;
-}
+}*/
 
-#ps {
-	font-size: 40px;
-	font-weight: bold;
-}
-
-#a2 {
-	margin: 30px;
-	text-align: center;
-}
-
-#section1 {
-	margin-left: 200px;
-	margin-top: 60px;
-	margin-bottom: 50px;
-	text-align: left;
-}
 #paragraphBox {
-	padding-left: 200px;
-	padding-right: 200px;
-	margin-top: 50px;
+	text-align: center;
+	align-content: center;
+	margin-top: 2%;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 #paragraph {
-	/*margin: 200px;*/
-	max-width: 75%;
 	height: auto;
 }
-
 #services {
-	margin-left: 250px;
-	margin-top: 50px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+#servicesTable {
+	text-align: left;
+
 }
 
 .footer {
@@ -141,7 +124,7 @@ li a:hover {
 	font-size: 15px;
 	color: whitesmoke;
 	background-image: url(footer3.png);
-	position: absolute;
+	position: relative;
 }
 
 .inner_footer {
