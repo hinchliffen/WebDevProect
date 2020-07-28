@@ -103,10 +103,21 @@ li a:hover {
 	text-align: left;
 }
 
-#services {
-	margin-left: 25%;
+.services {
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
 }
+
+	.services img {
+		display: inline;
+		vertical-align: middle;
+		padding: 15px;
+		width:320px;
+		height:220px;
+	}
 
 .footer {
 	left: 0;
