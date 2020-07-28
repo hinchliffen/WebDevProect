@@ -5,9 +5,8 @@
 
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="spectrumprinthomepage.css">
-	
+
 	<link rel="stylesheet" href="bootstrap.min.css">
-	<script type="text/javascript" src="sendEmail.js"></script>
 
 	<!-- want to turn the links to dropdowns with more specific information -->
 	<nav class="topnav">
@@ -15,7 +14,7 @@
 		<a href="spectrumprinthomepage.html">
 			<img src="logotransparent.png.png" id="logo" class="logo">
 		</a>
-		
+
 		<ul id="links">
 			<li><a href="printingServices.html">Printing Services</a></li>
 			<li><a href="mailingServices.html">Mailing Services</a></li>
@@ -26,29 +25,33 @@
 
 </head>
 
-<body id="con">
-	<form id="contactForm">
-	 <fieldset>
-			<h1 id="git">Get in Touch</h1>
-			<label id="labelN">Name</label>
-			<input type="text" name="name" id="nameInput">
-			<br/><br/>
+<body id="main">
+	<div class="body">
+		<div id="section1" class="text-center">
+			<h1 id="ps">let's talk!</h1>
+		</div>
 
-			<label id="labelN">Email</label>
-			<input type="text" name="email" id="emailInput">
-			<br/><br/>
+		<div class="container">
+			<form action="action_page.php">
 
-			<label id="labelS"> Subject</label>
-			<input type="text" name="subject" id="subject">
-			<br/><br/>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Full name..">
 
-			<label id="labelM">Message</label>
-				<textarea type="text" name="message" 			id="message"></textarea>
-			<br/><br/>
-			<input id="sub" type="submit" name="Submit" labe></input>
-			<br/><br/>
-	 </fieldset>
-	</form>
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" placeholder="Email..">
+
+				<label for="subject">Subject</label>
+				<input type="text" id="subject" name="subject" placeholder="Subject..">
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" placeholder="Write something.." style="height:200px;width:100%"></textarea>
+
+				<input type="submit" value="Submit">
+
+			</form>
+		</div>
+	</div>
+
 
 	<div class="footer">
 		<div class="inner_footer">
@@ -82,6 +85,5 @@
 		</div>
 	</div>
 </body>
-
 
 </html>
