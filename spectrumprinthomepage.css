@@ -112,12 +112,13 @@ li a:hover {
 	margin-bottom: 50px;
 	text-align: left;
 }
-
-#paragraph {
-	/*margin: 200px;*/
+#paragraphBox {
 	padding-left: 200px;
 	padding-right: 200px;
 	margin-top: 50px;
+}
+#paragraph {
+	/*margin: 200px;*/
 	max-width: 75%;
 	height: auto;
 }
@@ -140,6 +141,7 @@ li a:hover {
 	font-size: 15px;
 	color: whitesmoke;
 	background-image: url(footer3.png);
+	position: absolute;
 }
 
 .inner_footer {
