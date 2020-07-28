@@ -84,11 +84,6 @@ li a:hover {
 	vertical-align: top;
 }
 
-#message {
-	width: 450px;
-	height: 250px;
-}
-
 #sub {
 	background-color: cornflowerblue;
 	border-radius: 12px;
@@ -97,34 +92,19 @@ li a:hover {
 	padding: 10px 24px;
 }
 
-#ps {
-	font-size: 40px;
-	font-weight: bold;
+#paragraphBox {
+	padding-top: 1%;
+	padding-left: 25%;
+	padding-right: 25%;
 }
-
-#a2 {
-	margin: 30px;
-	text-align: center;
-}
-
-#section1 {
-	margin-left: 200px;
-	margin-top: 60px;
-	margin-bottom: 50px;
+#paragraph {
+	max-width: 100%;
+	height: auto;
 	text-align: left;
 }
 
-#paragraph {
-	/*margin: 200px;*/
-	padding-left: 200px;
-	padding-right: 200px;
-	margin-top: 50px;
-	max-width: 75%;
-	height: auto;
-}
-
 #services {
-	margin-left: 250px;
+	margin-left: 25%;
 	margin-top: 50px;
 }
 
