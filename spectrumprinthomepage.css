@@ -37,6 +37,7 @@ li a:hover {
 	border: 80px;
 	padding: 50px;
 	overflow: hidden;
+	align-content: center;
 }
 
 .body .text-center{
@@ -188,4 +189,5 @@ li a:hover {
 	font-weight: bolder;
 	padding-bottom: 5px;
 }
+
 
