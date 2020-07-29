@@ -104,6 +104,19 @@ li a:hover {
 	font-size: 18px;
 }
 
+.graphic_img {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.graphic_img img {
+	position: relative;
+	display: inline;
+	vertical-align: middle;
+}
+
 .img_container {
 	margin-left: 10%;
 	margin-right: 10%;
