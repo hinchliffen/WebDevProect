@@ -13,6 +13,6 @@
 	$to = "roseb5@wit.edu";
 	//$headers = "From: $email_from \r\n";
 	//$headers .= "Reply-To: $email \r\n";
-	mail($to,$subject, $email_body, $headers);
+	mail($to,$subject, $message);
 	header('Location: home.html');
 ?>
