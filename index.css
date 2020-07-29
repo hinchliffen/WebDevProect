@@ -110,22 +110,6 @@ li a:hover {
 	margin-bottom: 150px;
 	text-align: center;
 }
-/*
-.services img {
-	position: relative;
-	display: inline;
-	vertical-align: middle;
-	margin: 25px;
-	padding: 1px;
-	width: 420px;
-	height: 320px;
-	border: solid;
-	border-width: 1px;
-	border-color: black;
-	background-color: black;
-	border-radius: 10px;
-	transition: .75s ease;
-}*/
 
 .services img {
 	position: relative;
@@ -138,15 +122,19 @@ li a:hover {
 	transition: .75s ease;
 }
 
-.services .button {
+.services .btn {
 	position: absolute;
-	display: none;
+	display: none; 
+	background-color:green;
+	color:white;
+
 }
 
 .services img:hover {
 	display: inline-block;
 	opacity: 0.3;
 }
+
 
 .footer {
 	left: 0;
