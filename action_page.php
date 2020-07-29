@@ -13,6 +13,13 @@
 	$to = "bryanrose147@gmail.com";
 	//$headers = "From: $email_from \r\n";
 	//$headers .= "Reply-To: $email \r\n";
-	mail($to,$subject, $message);
-	header('Location: home.html');
+
+	if (mail($to,$subject, $message)
+	{
+		header('Location: home.html');	
+	}
+	else 
+	{
+		header('Location: contact.html');
+	}
 ?>
