@@ -104,6 +104,29 @@ li a:hover {
 	font-size: 18px;
 }
 
+.img_container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+.img_container img {
+	position: relative;
+	display: inline;
+	vertical-align: middle;
+	margin: 25px;
+	width: 620px;
+	height: 520px;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: black;
+	transition: .75s ease;
+	box-shadow: 10px 10px 5px grey;
+}
+
 .services {
 	margin-left: 10%;
 	margin-right: 10%;
