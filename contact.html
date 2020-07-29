@@ -32,7 +32,7 @@
 		</div>
 
 		<div class="container">
-            <form method="post" name="myemailform" action="action_page.php">
+            <form name="myemailform" action="mailto:brian@spectrumpressinc.com" method="GET" target="_blank">
 
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Full name.." />
@@ -44,8 +44,8 @@
                 <input type="text" id="subject" name="subject" placeholder="Subject.." />
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write something.." style="height:200px;width:100%"></textarea>
-                <input type="submit" value="Send Form">
+                <textarea id="body" name="body" placeholder="Write something.." style="height:200px;width:100%"></textarea>
+                <input type="submit" value="Submit">
             </form>
 		</div>
 	</div>
