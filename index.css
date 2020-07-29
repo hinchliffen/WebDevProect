@@ -107,34 +107,46 @@ li a:hover {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 	text-align: center;
 }
+/*
+.services img {
+	position: relative;
+	display: inline;
+	vertical-align: middle;
+	margin: 25px;
+	padding: 1px;
+	width: 420px;
+	height: 320px;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: black;
+	border-radius: 10px;
+	transition: .75s ease;
+}*/
 
-	.services img {
-		display: inline;
-		vertical-align: middle;
-		margin: 25px;
-		padding: 1px;
-		width: 420px;
-		height: 320px;
-		border: solid;
-		border-width: 1px;
-		border-color: black;
-		background-color: black;
-		border-radius: 10px;
-		transition: .75s ease;
-	}
+.services img {
+	position: relative;
+	display: inline;
+	vertical-align: middle;
+	margin: 25px;
+	width: 420px;
+	height: 320px;
+	box-shadow: 10px 10px 5px grey;
+	transition: .75s ease;
+}
 
-	.services .button {
-		display: none;
-	}
+.services .button {
+	position: absolute;
+	display: none;
+}
 
-	.services img:hover {
-		display: inline-block;
-		opacity: 0.3;
-	}
-
+.services img:hover {
+	display: inline-block;
+	opacity: 0.3;
+}
 
 .footer {
 	left: 0;
