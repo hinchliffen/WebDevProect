@@ -32,23 +32,21 @@
 		</div>
 
 		<div class="container">
-			<form action="action_page.php">
+            <form method="post" name="myemailform" action="action_page.php">
 
-				<label for="name">Name</label>
-				<input type="text" id="name" name="name" placeholder="Full name..">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Full name.." />
 
-				<label for="email">Email</label>
-				<input type="text" id="email" name="email" placeholder="Email..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email.." />
 
-				<label for="subject">Subject</label>
-				<input type="text" id="subject" name="subject" placeholder="Subject..">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject.." />
 
-				<label for="message">Message</label>
-				<textarea id="message" name="message" placeholder="Write something.." style="height:200px;width:100%"></textarea>
-
-				<input type="submit" value="Submit">
-
-			</form>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px;width:100%"></textarea>
+                <input type="submit" value="Send Form">
+            </form>
 		</div>
 	</div>
 
