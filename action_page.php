@@ -14,7 +14,7 @@
 	//$headers = "From: $email_from \r\n";
 	//$headers .= "Reply-To: $email \r\n";
 
-	if (mail($to,$subject, $message)
+	if (mail($to,$subject, $message))
 	{
 		header('Location: home.html');	
 	}
