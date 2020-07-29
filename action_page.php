@@ -10,7 +10,7 @@
 	//$email_body = "You have recieved a message from the user $name.\n".
 	//				"Subject: $subject\n"
 	//				"Message: $message\n".
-	$to = "roseb5@wit.edu";
+	$to = "bryanrose147@gmail.com";
 	//$headers = "From: $email_from \r\n";
 	//$headers .= "Reply-To: $email \r\n";
 	mail($to,$subject, $message);
