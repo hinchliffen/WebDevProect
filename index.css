@@ -103,6 +103,13 @@ li a:hover {
 	text-align: left;
 	font-size: 18px;
 }
+#iframe{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
 
 .img_container {
 	margin-left: 10%;
