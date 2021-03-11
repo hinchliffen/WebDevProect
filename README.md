@@ -9,6 +9,6 @@ https://spectrumpresstest.herokuapp.com/home.html
 ________________________________________________________________________________________________________
 Team Members:
 1) Nick Hinchliffe 
-2) Justin Alicea 
-3) Marcus Kwong 
+2) Sean Crowley 
+3) Bryan Rose
  
